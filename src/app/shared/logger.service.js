@@ -15,9 +15,16 @@
         };
 
 
+        /**
+         * For testing purposes
+         */
+        this.reset = function () {
+            tracking = [];
+        };
         return {
             add: this.addItem,
             remove: this.removeItem,
+            reset: this.reset,
             data: data,
             logs: tracking
         }
