@@ -2,7 +2,7 @@
 
 ## Install instructions:
 * ```mkdir project && cd project```
-* ```git clone git push -u origin master```
+* ```git clone https://github.com/HackPoint/zerto-form```
 * ```npm install```
 * ```gulp``` (just run gulp the default action should run and build everything)
 
