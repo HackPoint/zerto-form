@@ -1,5 +1,6 @@
+@import "helpers";
 .input-email {
   width: 100%;
-  min-width: 958px;
+  min-width: toRem(600px);
   padding: 0 10%;
 }
